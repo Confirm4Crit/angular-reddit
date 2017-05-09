@@ -25,11 +25,13 @@ export class ArticleComponent implements OnInit {
     this.votes += 1;
     return false;
   }
+
   voteDown() {
     this.votes -= 1;
     return false;
   }
-  ngOnInit() { 
+
+  ngOnInit() {
 
   }
 
